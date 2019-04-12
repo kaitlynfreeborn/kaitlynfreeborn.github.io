@@ -1,19 +1,76 @@
-.topnav {
+.header {
     width: 100%;
-    padding: 25px;
+    padding-top: 1em;
+    padding-bottom: 1em;
     text-align: center;
 }
 
-.topnav a {
+.header h1 {
        
         color: black;
         text-align: center;
-        padding: 14px 14px 14px 14px;
-        text-decoration: none;
-        font-size: 17px; 
+        text-decoration:none;
+        font-size: 50px; 
 }
 
 body{
     background-color:lavenderblush;
     color:black;
+    padding-top: 0em;
+}
+
+.card {
+    height: 400px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 1em;
+}
+
+.card-link{
+    text-decoration:none;
+    background-color:crimson;
+    padding:1em 1em 1em 1em;
+    color:aliceblue;
+    display:inline-block;
+    width:193px;
+    text-align:center;
+}
+
+.card-link:hover{
+    background-color:deeppink;
+}
+
+#cardImage {
+    height: 300px;
+    width: auto;
+}
+
+card-img-overlay a{
+    text-decoration:none;
+    border-color:white;
+}
+
+.column1{
+    display:inline-block;
+    float:left;
+    width: 35%;
+    padding-left:4em;
+}
+
+.column2 {
+    display: inline-block;
+    float: inherit;
+    width: 35%;
+}
+
+.column3 {
+    display: inline-block;
+    float: right;
+    width: 35%;
+}
+
+.row{
+    display:flex;
 }
