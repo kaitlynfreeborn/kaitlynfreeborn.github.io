@@ -3,6 +3,7 @@
     padding-top: 1em;
     padding-bottom: 1em;
     text-align: center;
+    padding-right:1em;
 }
 
 .header h1 {
@@ -34,7 +35,7 @@ body{
     padding:1em 1em 1em 1em;
     color:aliceblue;
     display:inline-block;
-    width:193px;
+    width:342px;
     text-align:center;
 }
 
@@ -43,7 +44,7 @@ body{
 }
 
 #cardImage {
-    height: 300px;
+    height: 500px;
     width: auto;
 }
 
@@ -56,13 +57,15 @@ card-img-overlay a{
     display:inline-block;
     float:left;
     width: 35%;
-    padding-left:4em;
+    padding-left:10em;
+    padding-right: 4em;
 }
 
 .column2 {
     display: inline-block;
     float: inherit;
     width: 35%;
+    padding-right: 4em;
 }
 
 .column3 {
